@@ -43,6 +43,37 @@ do
 
 ----
 
+    Tabs.Main:AddButton({
+        Title = "BuySharkmanKarate",
+        Description = "",
+        Callback = function()
+            Window:Dialog({
+                Title = "Title",
+                Content = "This is a dialog",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function(local args = {
+    [1] = "BuySharkmanKarate"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args)))
+                            print("Confirmed the dialog.")
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+    ----
+
     local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Auto Farm", Default = false })
 
     Toggle:OnChanged(function()
