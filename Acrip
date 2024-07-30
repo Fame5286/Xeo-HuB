@@ -46,8 +46,30 @@ do
     local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Auto Farm", Default = false })
 
     Toggle:OnChanged(function()
-        print()
+        print(coming soon)
     end)
+
+----
+
+local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Fast-Attack", Default = false })
+
+    Toggle:OnChanged(function()
+        print(local Fast = require(game:GetService("Players").LocalPlayer.PlayerScripts.CombatFramework)
+local CameraShaker = require(game:GetService("Players").LocalPlayer.PlayerScripts.CombatFramework.CameraShaker)
+_G.Name = true -- true\false
+game:GetService("RunService").RenderStepped:Connect(function()
+    pcall(function()
+        if _G.Name then
+Fast.activeController.timeToNextAttack = 0
+game:GetService'VirtualUser':CaptureController()
+game:GetService'VirtualUser':Button1Down(Vector2.new(686, 352))
+CameraShaker.CameraShakeInstance.CameraShakeState = {FadingIn = 3, FadingOut = 2, Sustained = 0, Inactive = 1}
+end
+end)
+end))
+    end)
+
+----
 
 local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "FPS BOOTS", Default = false })
 
