@@ -43,7 +43,7 @@ do
 
 ----
 
-    Tabs.Main:AddButton({
+    Tabs.Shop:AddButton({
         Title = "BuySharkmanKarate",
         Description = "",
         Callback = function()
