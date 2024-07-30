@@ -46,6 +46,7 @@ do
         print()
     end)
 
+Options.MyToggle:SetValue(false)
 
 local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Fast-Attack", Default = false })
 
@@ -53,7 +54,7 @@ local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Fast-Attack", Default =
         print(Superfast)
     end)
 
-
+Options.MyToggle:SetValue(false)
 
 local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "FPS-BOOTS", Default = false })
 
@@ -61,7 +62,7 @@ local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "FPS-BOOTS", Default = f
         print(loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FPS-BOOSTER/main/FPSBooster.txt"))())
     end)
 
-
+Options.MyToggle:SetValue(false)
 
 local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "BuySuperhuman", Default = false })
 
@@ -73,7 +74,7 @@ local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "BuySuperhuman", Default
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args)))
     end)
 
-
+Options.MyToggle:SetValue(false)
 
 local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "BuySharkmanKarate", Default = false })
 
@@ -85,7 +86,7 @@ local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "BuySharkmanKarate", Def
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args)))
     end)
 
-
+Options.MyToggle:SetValue(false)
 
 local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "BuyDeathStep", Default = false })
 
@@ -99,7 +100,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF
 )
     end)
 
-
+Options.MyToggle:SetValue(false)
 
 local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "BuyDragonTalon", Default = false })
 
@@ -111,7 +112,7 @@ local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "BuyDragonTalon", Defaul
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args)))
     end)
 
-
+Options.MyToggle:SetValue(false)
 
 
 local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "BuyElectricClaw", Default = false })
@@ -125,7 +126,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF
 )
     end)
 
-
+Options.MyToggle:SetValue(false)
 
 local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "BuyGodhuman", Default = false })
 
@@ -137,7 +138,7 @@ local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "BuyGodhuman", Default =
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args)))
     end)
 
-
+Options.MyToggle:SetValue(false)
 
 local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "BuySanguineArt", Default = false })
 
@@ -151,20 +152,32 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF
 )
     end)
 
-
+Options.MyToggle:SetValue(false)
 
 local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "Random-Race", Default = false })
 
     Toggle:OnChanged(function()
-        print(Random-Race)
+        print(local args = {
+    [1] = "BlackbeardReward",
+    [2] = "Reroll",
+    [3] = "2"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args)))
     end)
 
-
+Options.MyToggle:SetValue(false)
 
 local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "Refund", Default = false })
 
     Toggle:OnChanged(function()
-        print(Super fast)
+        print(local args = {
+    [1] = "BlackbeardReward",
+    [2] = "Refund",
+    [3] = "2"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args)))
     end)
 
 
