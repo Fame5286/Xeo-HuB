@@ -17,7 +17,7 @@ local Window = Fluent:CreateWindow({
 local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "rbxassetid://10723407389" }),
     Material = Window:AddTab({ Title = " Material", Icon = "rbxassetid://10709781605" }),
-    Auto/Money = Window:AddTab({ Title = " Money", Icon = "" }),
+    AutoMoney = Window:AddTab({ Title = " Money", Icon = "" }),
     UpPoint = Window:AddTab({ Title = "UP", Icon = "rbxassetid://10709811110" }),
     Accessories = Window:AddTab({ Title = "Accessories", Icon = "rbxassetid://10709818626" }),
     Melee = Window:AddTab({ Title = "Melee", Icon = "" }),
