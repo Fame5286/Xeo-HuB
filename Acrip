@@ -1,187 +1,936 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Fame5286/Silver-/main/Dummy%20Hub%20Source.lua%20(3).txt"))()
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "XEO-Hub " .. Fluent.Version,
-    SubTitle = "",
+    Title = "Xeo HuB",
+    SubTitle = "by-XEO",
     TabWidth = 160,
     Size = UDim2.fromOffset(580, 460),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
     Theme = "Darker",
-    MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
+    MinimizeKey = Enum.KeyCode.LeftControl-- Used when theres no MinimizeKeybind
 })
 
 --Fluent provides Lucide Icons https://lucide.dev/icons/ for the tabs, icons are optional
 local Tabs = {
-    Main = Window:AddTab({ Title = "Main", Icon = "Main" }),
-    Material = Window:AddTab({Title = "Material",Icon = "Material"}),
-    Shop = Window:AddTab({ Title = "Shop", Icon = "Shop" }),
-    Race = Window:AddTab({ Title = "Race", Icon = "Race" }),
-    Dungeon = Window:AddTab({ Title = "Dungeon", Icon = "Dungeon" }),
-    Teleport = Window:AddTab({ Title = "Teleport", Icon = "Teleport" }),
-    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
+    Main = Window:AddTab({ Title = "Main", Icon = "rbxassetid://10723407389" }),
+    Material = Window:AddTab({ Title = " Material", Icon = "rbxassetid://10709781605" }),
+    Auto/Money = Window:AddTab({ Title = " Money", Icon = "" }),
+    UpPoint = Window:AddTab({ Title = "UP", Icon = "rbxassetid://10709811110" }),
+    Accessories = Window:AddTab({ Title = "Accessories", Icon = "rbxassetid://10709818626" }),
+    Melee = Window:AddTab({ Title = "Melee", Icon = "" }),
+    Sword = Window:AddTab({ Title = " Sword", Icon = "rbxassetid://10734975692" }),
+    Shop = Window:AddTab({ Title = "Shop", Icon = "rbxassetid://10734952273" }),
+    Race = Window:AddTab({ Title = "Race", Icon = "rbxassetid://10709775894" }),
+    Dungeon = Window:AddTab({ Title = "Dungeon", Icon = "rbxassetid://10709819149" }),
+    Teleport = Window:AddTab({ Title = "Teleport", Icon = "rbxassetid://10723344270" }),
+    Settings = Window:AddTab({ Title = "Settings", Icon = "rbxassetid://10734950020" })
 }
 
 local Options = Fluent.Options
 
 do
     Fluent:Notify({
-        Title = "Notification",
-        Content = "Loader XEO-HUB",
-        SubContent = "succeed", -- Optional
+        Title = "Hi User",
+        Content = "Welcome to Xeo-HuB",
+        SubContent = "", -- Optional
         Duration = 5 -- Set to nil to make the notification not disappear
     })
 
 
+
     Tabs.Main:AddParagraph({
-        Title = "XEO-Hub",
-        Content = "Hi user!"
+        Title = "Xeo-HuB",
+        Content = "Hi User!"
     })
 
 
-    local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Auto Farm", Default = false })
-
-    Toggle:OnChanged(function()
-        print()
-    end)
-
-Options.MyToggle:SetValue(false)
-
-local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Fast-Attack", Default = false })
-
-    Toggle:OnChanged(function()
-        print(Superfast)
-    end)
-
-Options.MyToggle:SetValue(false)
-
-local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "FPS-BOOTS", Default = false })
-
-    Toggle:OnChanged(function()
-        print(loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FPS-BOOSTER/main/FPSBooster.txt"))())
-    end)
-
-Options.MyToggle:SetValue(false)
-
-local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "BuySuperhuman", Default = false })
-
-    Toggle:OnChanged(function()
-        print(local args = {
-    [1] = "BuySuperhuman"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args)))
-    end)
-
-Options.MyToggle:SetValue(false)
-
-local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "BuySharkmanKarate", Default = false })
-
-    Toggle:OnChanged(function()
-        print(local args = {
+Tabs.Shop:AddButton({
+        Title = "BuySharkmanKarate",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                            local args = {
     [1] = "BuySharkmanKarate"
 }
 
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args)))
-    end)
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
 
-Options.MyToggle:SetValue(false)
-
-local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "BuyDeathStep", Default = false })
-
-    Toggle:OnChanged(function()
-        print(local args = {
+Tabs.Shop:AddButton({
+        Title = "BuyDeathStep",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                            local args = {
     [1] = "BuyDeathStep",
     [2] = true
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
-)
-    end)
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
 
-Options.MyToggle:SetValue(false)
+Tabs.Shop:AddButton({
+        Title = "BuySuperhuman",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                            local args = {
+    [1] = "BuySuperhuman"
+}
 
-local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "BuyDragonTalon", Default = false })
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
 
-    Toggle:OnChanged(function()
-        print(local args = {
+Tabs.Shop:AddButton({
+        Title = "BuyDragonTalon",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                            local args = {
     [1] = "BuyDragonTalon"
 }
 
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args)))
-    end)
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
 
-Options.MyToggle:SetValue(false)
-
-
-local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "BuyElectricClaw", Default = false })
-
-    Toggle:OnChanged(function()
-        print(local args = {
+Tabs.Shop:AddButton({
+        Title = "BuyElectricClaw",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                          local args = {
     [1] = "BuyElectricClaw"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
-)
-    end)
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
 
-Options.MyToggle:SetValue(false)
-
-local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "BuyGodhuman", Default = false })
-
-    Toggle:OnChanged(function()
-        print(local args = {
+Tabs.Shop:AddButton({
+        Title = "BuyGodhuman",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                            local args = {
     [1] = "BuyGodhuman"
 }
 
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args)))
-    end)
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
 
-Options.MyToggle:SetValue(false)
-
-local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "BuySanguineArt", Default = false })
-
-    Toggle:OnChanged(function()
-        print(local args = {
+Tabs.Shop:AddButton({
+        Title = "BuySanguineArt",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                            local args = {
     [1] = "BuySanguineArt",
     [2] = true
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
-)
-    end)
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
 
-Options.MyToggle:SetValue(false)
-
-local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "Random-Race", Default = false })
-
-    Toggle:OnChanged(function()
-        print(local args = {
-    [1] = "BlackbeardReward",
-    [2] = "Reroll",
-    [3] = "2"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args)))
-    end)
-
-Options.MyToggle:SetValue(false)
-
-local Toggle = Tabs.Shop:AddToggle("MyToggle", {Title = "Refund", Default = false })
-
-    Toggle:OnChanged(function()
-        print(local args = {
+Tabs.Shop:AddButton({
+        Title = "Refund-Point",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                            local args = {
     [1] = "BlackbeardReward",
     [2] = "Refund",
     [3] = "2"
 }
 
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args)))
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.Shop:AddButton({
+        Title = "Reroll",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                            local args = {
+    [1] = "BlackbeardReward",
+    [2] = "Reroll",
+    [3] = "2"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.UpPoint:AddButton({
+        Title = "AddPoint-Sword MAX",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                            local args = {
+    [1] = "AddPoint",
+    [2] = "Sword",
+    [3] = 5000
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.UpPoint:AddButton({
+        Title = "AddPoint-DemonFruit MAX",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                            local args = {
+    [1] = "AddPoint",
+    [2] = "Demon Fruit",
+    [3] = 5000
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+
+Tabs.UpPoint:AddButton({
+        Title = "AddPoint-Defense MAX",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        local args = {
+    [1] = "AddPoint",
+    [2] = "Defense",
+    [3] = 10000000
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.UpPoint:AddButton({
+        Title = "AddPoint-Gun MAX",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        local args = {
+    [1] = "AddPoint",
+    [2] = "Gun",
+    [3] = 5000
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.UpPoint:AddButton({
+        Title = "AddPoint-Melee MAX",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        local args = {
+    [1] = "AddPoint",
+    [2] = "Melee",
+    [3] = 5000
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.Settings:AddButton({
+        Title = "Rejoin",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        loadstring(game:HttpGet("https://raw.githubusercontent.com/Jelly-plays/Rejoin-script/main/obf_L744By559M18BbuseSG6en8r1zL31daK9060LV7WyvmS4bQp92aONWfwRE36FdcZ.lua.txt"))()
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Sea 1",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Sea 2",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Sea 3",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+    
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Temple of time",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Shark Door",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Mink Door",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Human Door",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Sky Door",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Ghoul Door",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Cyborg Door",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Ancient one",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+
+    local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Auto-Farm", Default = false })
+
+    Toggle:OnChanged(function()
+        print()
+    
     end)
 
+    Options.MyToggle:SetValue(false)
 
-Options.MyToggle:SetValue(false)
+
+local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "FAST-ATTACK", Default = false })
+
+    Toggle:OnChanged(function()
+        print()
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+
+local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "FPS-BOOST", Default = false })
+
+    Toggle:OnChanged(function()
+        print()
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+
+local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "DARK SCREEN", Default = false })
+
+    Toggle:OnChanged(function()
+        print()
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+local Toggle = Tabs.Dungeon:AddToggle("MyToggle", {Title = "Auto-Buy Raids", Default = false })
+
+    Toggle:OnChanged(function()
+        while AutoBuyRaids do wait()
+            
+            local args = {
+                [1] = "RaidsNpc",
+                [2] = "Select",
+                [3] = tostring(SelectDun)
+            }
+            
+            game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+
+        end
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+local Toggle = Tabs.Dungeon:AddToggle("MyToggle", {Title = "Auto-Buy Raids Use Fruit", Default = false })
+
+    Toggle:OnChanged(function()
+        print()
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+    local Toggle = Tabs.Dungeon:AddToggle("MyToggle", {Title = "Auto-Start Raids", Default = false })
+
+    Toggle:OnChanged(function()
+        while AutoStart do wait()
+            fireclickdetector(game:GetService("Workspace").Map["Boat Castle"].RaidSummon2.Button.Main.ClickDetector)
+        end
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+
+local Toggle = Tabs.Dungeon:AddToggle("MyToggle", {Title = "Kill-Aura", Default = false })
+
+    Toggle:OnChanged(function()
+        print()
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+local Toggle = Tabs.Auto/Money:AddToggle("MyToggle", {Title = "AutoFram-Bone", Default = false })
+
+    Toggle:OnChanged(function()
+        print()
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+local Toggle = Tabs.Auto/Money:AddToggle("MyToggle", {Title = "AutoFram-Katakuri", Default = false })
+
+    Toggle:OnChanged(function()
+        print()
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+local Toggle = Tabs.Sword:AddToggle("MyToggle", {Title = "AutoFram-Master", Default = false })
+
+    Toggle:OnChanged(function()
+        print()
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+
+
+
+local Toggle = Tabs.Settings:AddToggle("MyToggle", {Title = "AutoRedeem-Code", Default = false })
+
+    Toggle:OnChanged(function()
+        -- Redeem
+    redeem = {
+        'Sub2Fer999',
+        'Enyu_is_Pro',
+        'JCWK',
+        'StarcodeHEO',
+        'MagicBUS',
+        'KittGaming',
+        'Sub2CaptainMaui',
+        'Sub2OfficialNoobie',
+        'TheGreatAce',
+        'Sub2NoobMaster123',
+        'Sub2Daigrock',
+        'Axiore',
+        'StrawHatMaine',
+        'TantaiGaming',
+        'Bluxxy',
+        'SUB2GAMERROBOT_EXP1',
+        'GAMER_ROBOT_1M',
+        'SUBGAMERROBOT_RESET',
+        'RESET_5B',
+        'SUB2GAMERROBOT_RESET1',
+        'Sub2UncleKizaru',
+        'ADMIN_TROLL ',
+        'DRAGONABUSE ',
+        'DEVSCOOKING '
+    }
+    spawn(function()
+        for i,v in pairs(redeem) do
+            game:GetService("ReplicatedStorage").Remotes.Redeem:InvokeServer(v)
+        end
+    end)
+    wait(1)
+    game:GetService("ReplicatedStorage").Assets.GUI.DamageCounter.Enabled = false
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
+
 
 
  local Input = Tabs.Main:AddInput("Input", {
@@ -229,9 +978,9 @@ InterfaceManager:BuildInterfaceSection(Tabs.Settings)
 Window:SelectTab(1)
 
 Fluent:Notify({
-    Title = "Notify",
+    Title = "wait loader",
     Content = "loader succeed.",
-    Duration = 8
+    Duration = 6
 })
 
 SaveManager:LoadAutoloadConfig()
