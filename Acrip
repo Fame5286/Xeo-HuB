@@ -495,6 +495,430 @@ Tabs.Settings:AddButton({
         end
     })
 
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Sea 1",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Sea 2",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Sea 3",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+    
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Temple of time",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Shark Door",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Mink Door",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Human Door",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Sky Door",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Ghoul Door",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Cyborg Door",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.Teleport:AddButton({
+        Title = "Teleport To Ancient one",
+        Description = " Click button",
+        Callback = function()
+            Window:Dialog({
+                Title = "Sure",
+                Content = "",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                        
+                              end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+
+    local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Auto-Farm", Default = false })
+
+    Toggle:OnChanged(function()
+        print()
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+
+local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "FAST-ATTACK", Default = false })
+
+    Toggle:OnChanged(function()
+        print()
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+
+local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "FPS-BOOST", Default = false })
+
+    Toggle:OnChanged(function()
+        print()
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+
+local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "DARK SCREEN", Default = false })
+
+    Toggle:OnChanged(function()
+        print()
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+local Toggle = Tabs.Dungeon:AddToggle("MyToggle", {Title = "Auto-Buy Raids", Default = false })
+
+    Toggle:OnChanged(function()
+        while AutoBuyRaids do wait()
+            
+            local args = {
+                [1] = "RaidsNpc",
+                [2] = "Select",
+                [3] = tostring(SelectDun)
+            }
+            
+            game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+
+        end
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+local Toggle = Tabs.Dungeon:AddToggle("MyToggle", {Title = "Auto-Buy Raids Use Fruit", Default = false })
+
+    Toggle:OnChanged(function()
+        print()
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+    local Toggle = Tabs.Dungeon:AddToggle("MyToggle", {Title = "Auto-Start Raids", Default = false })
+
+    Toggle:OnChanged(function()
+        while AutoStart do wait()
+            fireclickdetector(game:GetService("Workspace").Map["Boat Castle"].RaidSummon2.Button.Main.ClickDetector)
+        end
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+
+local Toggle = Tabs.Dungeon:AddToggle("MyToggle", {Title = "Kill-Aura", Default = false })
+
+    Toggle:OnChanged(function()
+        print()
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+local Toggle = Tabs.Auto/Money:AddToggle("MyToggle", {Title = "AutoFram-Bone", Default = false })
+
+    Toggle:OnChanged(function()
+        print()
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+local Toggle = Tabs.Auto/Money:AddToggle("MyToggle", {Title = "AutoFram-Katakuri", Default = false })
+
+    Toggle:OnChanged(function()
+        print()
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+
+local Toggle = Tabs.Settings:AddToggle("MyToggle", {Title = "AutoRedeem-Code", Default = false })
+
+    Toggle:OnChanged(function()
+        -- Redeem
+    redeem = {
+        'Sub2Fer999',
+        'Enyu_is_Pro',
+        'JCWK',
+        'StarcodeHEO',
+        'MagicBUS',
+        'KittGaming',
+        'Sub2CaptainMaui',
+        'Sub2OfficialNoobie',
+        'TheGreatAce',
+        'Sub2NoobMaster123',
+        'Sub2Daigrock',
+        'Axiore',
+        'StrawHatMaine',
+        'TantaiGaming',
+        'Bluxxy',
+        'SUB2GAMERROBOT_EXP1',
+        'GAMER_ROBOT_1M',
+        'SUBGAMERROBOT_RESET',
+        'RESET_5B',
+        'SUB2GAMERROBOT_RESET1',
+        'Sub2UncleKizaru',
+        'ADMIN_TROLL ',
+        'DRAGONABUSE ',
+        'DEVSCOOKING '
+    }
+    spawn(function()
+        for i,v in pairs(redeem) do
+            game:GetService("ReplicatedStorage").Remotes.Redeem:InvokeServer(v)
+        end
+    end)
+    wait(1)
+    game:GetService("ReplicatedStorage").Assets.GUI.DamageCounter.Enabled = false
+    
+    end)
+
+    Options.MyToggle:SetValue(false)
 
 
 
@@ -549,3 +973,4 @@ Fluent:Notify({
 })
 
 SaveManager:LoadAutoloadConfig()
+
