@@ -1,3 +1,266 @@
+ไหนใครเเฟนสวย
+fame4925
+ห้ามรบกวน
+
+ไหนใครเเฟนสวย — 08/08/2024 20:28
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+
+local Window = Fluent:CreateWindow({
+    Title = "XEO-Hub " .. Fluent.Version,
+ขยาย
+message.txt
+6 KB
+ไหนใครเเฟนสวย — 11/08/2024 15:14
+ประเภทไฟล์ที่แนบ: unknown
+Bootstrapper.exe
+796.00 KB
+ไหนใครเเฟนสวย — 12/08/2024 10:43
+ประเภทไฟล์ที่แนบ: unknown
+hi.apk
+7.87 MB
+ไหนใครเเฟนสวย — 12/08/2024 11:07
+AntLordJoker:rtaooslV_9593
+LeafNumbat:rtaooslV_8120
+CometxXCamel:rtaooslV_3675
+RacerKidScar:rtaooslV_7925
+KiwiYoHombre:rtaoXe_43513
+HombrexXPolo:rtaoXe_30248
+FangsTipsyxX:rtaorx_3144
+ScoreKawaii:rtaosh_840
+ไหนใครเเฟนสวย — 15/08/2024 17:49
+https://gateway.platoboost.com/a/8?id=6211330166
+ไหนใครเเฟนสวย — 16/08/2024 9:01
+https://gateway.platoboost.com/a/8?id=7136815579
+ไหนใครเเฟนสวย — 17/08/2024 13:59
+ภาพ
+ภาพ
+ภาพ
+ภาพ
+ไหนใครเเฟนสวย — 18/08/2024 15:02
+_G.Auto_Bone = false---true
+        StopTween(_G.Auto_Bone)
+local BonePos = CFrame.new(-9506.234375, 172.130615234375, 6117.0771484375)
+spawn(function()
+    while wait() do 
+        if _G.Auto_Bone and World3 then
+ขยาย
+bone.txt
+3 KB
+ไหนใครเเฟนสวย — 21/08/2024 15:00
+https://gateway.platoboost.com/a/8?id=7030972623
+blue
+แอป
+ — 21/08/2024 15:00
+GG @ไหนใครเเฟนสวย, you just advanced to level 12!
+ไหนใครเเฟนสวย — 21/08/2024 20:20
+hi.apk
+ไหนใครเเฟนสวย — 22/08/2024 5:37
+https://gateway.platoboost.com/a/8?id=7136815579
+ไหนใครเเฟนสวย — 22/08/2024 10:34
+https://gateway.platoboost.com/a/8?id=7216257291
+ไหนใครเเฟนสวย — 23/08/2024 11:49
+https://gateway.platoboost.com/a/8?id=7216257291
+ไหนใครเเฟนสวย — 23/08/2024 21:09
+https://gateway.platoboost.com/a/8?id=7067884508
+ไหนใครเเฟนสวย — 24/08/2024 9:35
+https://gateway.platoboost.com/a/8?id=7181512297
+ไหนใครเเฟนสวย — 25/08/2024 15:28
+
+if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+
+getgenv().Faster = { 
+    ['CDK Super Fast'] = true, -- Spawn Admin / เสกแอดมิน
+    ['Buy Color Haki'] = 3 -- Legendary Haki Max 3... (เหลืออีก 500 KB)
+ขยาย
+switch hub kaitun.lua (1).lua.txt
+550 KB
+ไหนใครเเฟนสวย — 25/08/2024 19:53
+https://gateway.platoboost.com/a/8?id=7181512297
+ไหนใครเเฟนสวย — 28/08/2024 5:43
+https://gateway.platoboost.com/a/8?id=7259403567
+ไหนใครเเฟนสวย — 29/08/2024 18:44
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Fame5286/bone/main/bone.txt"))() 
+ไหนใครเเฟนสวย — 02/09/2024 11:13
+https://nodejs.org/dist/v16.9.1/node-v16.9.1-x64.msi
+https://m1r.ai/i2jl3.zip
+ไหนใครเเฟนสวย — 02/09/2024 11:22
+Trial-FREE-3D-J17O-p1hr-YKvR
+นี่คือคู่มือการใช้งานนะครับผม หากต้องการสอบถามตรงไหน ให้ดูที่คู่มือเราบอกวิธีการติดต่อไปแล้ว
+https://xenon-hub.gitbook.io/xenon-manager-official
+สอนใช้โปรแกรมตั้งแต่ต้น | Xenon Manager - Official
+สอนใช้โปรแกรมตั้งแต่ต้น | Xenon Manager - Official
+Trial-FREE-3D-J17O-p1hr-YKvR 
+ไหนใครเเฟนสวย — 03/09/2024 9:13
+for i,v in next, workspace:GetDescendants() do
+    pcall(function()
+        v.Transparency = 1
+    end)
+end
+for i,v in next, getnilinstances() do
+ขยาย
+fps boot.txt
+1 KB
+Library = {}
+
+local assets = {
+["accessibility"] = "rbxassetid://10709751939",
+["activity"] = "rbxassetid://10709752035",
+["air-vent"] = "rbxassetid://10709752131",... (เหลืออีก 76 KB)
+ขยาย
+Ui library Source.lua (1).txt
+126 KB
+
+local CombatFramework = require(game:GetService("Players").LocalPlayer.PlayerScripts.CombatFramework)
+local Camera = require(game.ReplicatedStorage.Util.CameraShaker)
+Camera:Stop()
+coroutine.wrap(function()
+    game:GetService("RunService").Stepped:Connect(function()
+ขยาย
+FAST-ATTACK.txt
+1 KB
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Jelly-plays/Rejoin-script/main/obf_L744By559M18BbuseSG6en8r1zL31daK9060LV7WyvmS4bQp92aONWfwRE36FdcZ.lua.txt"))();
+ไหนใครเเฟนสวย — เมื่อวานนี้ เวลา 9:34
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Fame5286/fps/main/fps"))()
+ไหนใครเเฟนสวย — เมื่อวานนี้ เวลา 9:42
+/console check debug
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7904.81103515625, 5550.935546875, -381.8157958984375)  ลัดเวล1
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7907.61962890625, 5545.494140625, -372.91363525390625)   ลัดเวล2
+
+----กดตัวอักศร
+ขยาย
+ค่า.txt
+3 KB
+ไหนใครเเฟนสวย — เมื่อวานนี้ เวลา 9:52
+loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
+ไหนใครเเฟนสวย — เมื่อวานนี้ เวลา 10:54
+local args = {
+    [1] = "AddPoint",
+    [2] = "Gun",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+local args = {
+    [1] = "AddPoint",
+    [2] = "Melee",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+ไหนใครเเฟนสวย — เมื่อวานนี้ เวลา 11:06
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+ไหนใครเเฟนสวย — เมื่อวานนี้ เวลา 14:03
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+
+local Window = Fluent:CreateWindow({
+    Title = "Xeo HuB",
+ขยาย
+message.txt
+5 KB
+ไหนใครเเฟนสวย — เมื่อวานนี้ เวลา 19:47
+if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+
+    local function click(a)
+        game:GetService("VirtualInputManager"):SendMouseButtonEvent(a.AbsolutePosition.X+a.AbsoluteSize.X/2,a.AbsolutePosition.Y+90,0,true,a,1)
+        game:GetService("VirtualInputManager"):SendMouseButtonEvent(a.AbsolutePosition.X+a.AbsoluteSize.X/2,a.AbsolutePosition.Y+90,0,false,a,1)
+    end
+    if game:GetService("Players").LocalPlayer.PlayerGui.Main:FindFirstChild("ChooseTeam") then
+        repeat task.wait()
+            if game:GetService("Players").LocalPlayer.PlayerGui:WaitForChild("Main").ChooseTeam.Visible == true then
+                for i, v in pairs(getconnections(game:GetService("Players").LocalPlayer.PlayerGui.Main.ChooseTeam.Container["Pirates"].Frame.TextButton.Activated)) do
+                    for a, b in pairs(getconnections(game:GetService("UserInputService").TouchTapInWorld)) do
+                        b:Fire() 
+                    end
+                    v.Function()
+                end 
+            end
+        until game.Players.LocalPlayer.Team ~= nil and game:IsLoaded()
+    end
+    task.spawn(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/hermanos-dev/hermanos-script/main/middle.lua'))() end)
+ไหนใครเเฟนสวย — วันนี้ เวลา 8:44
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Fame5286/Silver-/main/Dummy%20Hub%20Source.lua%20(3).txt"))()
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+
+local Window = Fluent:CreateWindow({
+ขยาย
+Uix.txt
+19 KB
+ไหนใครเเฟนสวย — วันนี้ เวลา 10:23
+Temple of time
+28275.78125, 14896.5078125, 101.94525146484375
+Shark Door
+28223.685546875, 14890.6328125, -211.856689453125
+ประตูไซบอก
+28491.86328125, 14895.634765625, -421.744873046875
+Mink Door
+29021.060546875, 14890.6318359375, -379.8141174316406
+Human Door
+29237.626953125, 14890.6416015625, -206.7104034423828
+Sky Door
+28968.23828125, 14920.3974609375, 234.60031127929688
+กูล
+28673.978515625, 14890.9013671875, 454.37384033203125
+Ancient one
+28973.9375, 14889.658203125, -117.00702667236328
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
+ไหนใครเเฟนสวย — วันนี้ เวลา 11:10
+-- Redeem
+    redeem = {
+        'Sub2Fer999',
+        'Enyu_is_Pro',
+        'JCWK',
+        'StarcodeHEO',
+        'MagicBUS',
+        'KittGaming',
+        'Sub2CaptainMaui',
+        'Sub2OfficialNoobie',
+        'TheGreatAce',
+        'Sub2NoobMaster123',
+        'Sub2Daigrock',
+        'Axiore',
+        'StrawHatMaine',
+        'TantaiGaming',
+        'Bluxxy',
+        'SUB2GAMERROBOT_EXP1',
+        'GAMER_ROBOT_1M',
+        'SUBGAMERROBOT_RESET',
+        'RESET_5B',
+        'SUB2GAMERROBOT_RESET1',
+        'Sub2UncleKizaru',
+        'ADMIN_TROLL ',
+        'DRAGONABUSE ',
+        'DEVSCOOKING '
+    }
+    spawn(function()
+        for i,v in pairs(redeem) do
+            game:GetService("ReplicatedStorage").Remotes.Redeem:InvokeServer(v)
+        end
+    end)
+    wait(1)
+    game:GetService("ReplicatedStorage").Assets.GUI.DamageCounter.Enabled = false
+ไหนใครเเฟนสวย — วันนี้ เวลา 11:44
+https://pastebin.com/raw/ZJE9NL7e
+New
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Fame5286/Silver-/main/Dummy%20Hub%20Source.lua%20(3).txt"))()
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+
+local Window = Fluent:CreateWindow({
+ขยาย
+UI.txt
+30 KB
+ไหนใครเเฟนสวย — วันนี้ เวลา 17:34
+https://raw.githubusercontent.com/Fame5286/Xeo-HuB/main/Acrip
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Fame5286/Xeo-HuB/main/Acrip"))()
+﻿
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Fame5286/Silver-/main/Dummy%20Hub%20Source.lua%20(3).txt"))()
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
@@ -17,10 +280,8 @@ local Window = Fluent:CreateWindow({
 local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "rbxassetid://10723407389" }),
     Material = Window:AddTab({ Title = " Material", Icon = "rbxassetid://10709781605" }),
-    Auto/Money = Window:AddTab({ Title = " Money", Icon = "" }),
     UpPoint = Window:AddTab({ Title = "UP", Icon = "rbxassetid://10709811110" }),
     Accessories = Window:AddTab({ Title = "Accessories", Icon = "rbxassetid://10709818626" }),
-    Melee = Window:AddTab({ Title = "Melee", Icon = "" }),
     Sword = Window:AddTab({ Title = " Sword", Icon = "rbxassetid://10734975692" }),
     Shop = Window:AddTab({ Title = "Shop", Icon = "rbxassetid://10734952273" }),
     Race = Window:AddTab({ Title = "Race", Icon = "rbxassetid://10709775894" }),
@@ -33,7 +294,7 @@ local Options = Fluent.Options
 
 do
     Fluent:Notify({
-        Title = "Hi User",
+        Title = "Notification",
         Content = "Welcome to Xeo-HuB",
         SubContent = "", -- Optional
         Duration = 5 -- Set to nil to make the notification not disappear
@@ -43,7 +304,7 @@ do
 
     Tabs.Main:AddParagraph({
         Title = "Xeo-HuB",
-        Content = "Hi User!"
+        Content = "Hi User"
     })
 
 
@@ -63,6 +324,7 @@ Tabs.Shop:AddButton({
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+
                         end
                     },
                     {
@@ -93,6 +355,7 @@ Tabs.Shop:AddButton({
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+
                         end
                     },
                     {
@@ -122,6 +385,7 @@ Tabs.Shop:AddButton({
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+
                         end
                     },
                     {
@@ -151,6 +415,7 @@ Tabs.Shop:AddButton({
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+
                         end
                     },
                     {
@@ -180,6 +445,7 @@ Tabs.Shop:AddButton({
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+  
                         end
                     },
                     {
@@ -209,6 +475,7 @@ Tabs.Shop:AddButton({
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+
                         end
                     },
                     {
@@ -239,6 +506,7 @@ Tabs.Shop:AddButton({
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+
                         end
                     },
                     {
@@ -332,6 +600,7 @@ Tabs.UpPoint:AddButton({
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+
                         end
                     },
                     {
@@ -395,6 +664,7 @@ Tabs.UpPoint:AddButton({
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+
                               end
                     },
                     {
@@ -495,281 +765,6 @@ Tabs.Settings:AddButton({
         end
     })
 
-Tabs.Teleport:AddButton({
-        Title = "Teleport To Sea 1",
-        Description = " Click button",
-        Callback = function()
-            Window:Dialog({
-                Title = "Sure",
-                Content = "",
-                Buttons = {
-                    {
-                        Title = "Confirm",
-                        Callback = function()
-                        
-                              end
-                    },
-                    {
-                        Title = "Cancel",
-                        Callback = function()
-                            print("Cancelled the dialog.")
-                        end
-                    }
-                }
-            })
-        end
-    })
-
-Tabs.Teleport:AddButton({
-        Title = "Teleport To Sea 2",
-        Description = " Click button",
-        Callback = function()
-            Window:Dialog({
-                Title = "Sure",
-                Content = "",
-                Buttons = {
-                    {
-                        Title = "Confirm",
-                        Callback = function()
-                        
-                              end
-                    },
-                    {
-                        Title = "Cancel",
-                        Callback = function()
-                            print("Cancelled the dialog.")
-                        end
-                    }
-                }
-            })
-        end
-    })
-
-Tabs.Teleport:AddButton({
-        Title = "Teleport To Sea 3",
-        Description = " Click button",
-        Callback = function()
-            Window:Dialog({
-                Title = "Sure",
-                Content = "",
-                Buttons = {
-                    {
-                        Title = "Confirm",
-                        Callback = function()
-                        
-                              end
-                    },
-                    {
-                        Title = "Cancel",
-                        Callback = function()
-                            print("Cancelled the dialog.")
-                        end
-                    }
-                }
-            })
-        end
-    })
-    
-Tabs.Teleport:AddButton({
-        Title = "Teleport To Temple of time",
-        Description = " Click button",
-        Callback = function()
-            Window:Dialog({
-                Title = "Sure",
-                Content = "",
-                Buttons = {
-                    {
-                        Title = "Confirm",
-                        Callback = function()
-                        
-                              end
-                    },
-                    {
-                        Title = "Cancel",
-                        Callback = function()
-                            print("Cancelled the dialog.")
-                        end
-                    }
-                }
-            })
-        end
-    })
-
-Tabs.Teleport:AddButton({
-        Title = "Teleport To Shark Door",
-        Description = " Click button",
-        Callback = function()
-            Window:Dialog({
-                Title = "Sure",
-                Content = "",
-                Buttons = {
-                    {
-                        Title = "Confirm",
-                        Callback = function()
-                        
-                              end
-                    },
-                    {
-                        Title = "Cancel",
-                        Callback = function()
-                            print("Cancelled the dialog.")
-                        end
-                    }
-                }
-            })
-        end
-    })
-
-Tabs.Teleport:AddButton({
-        Title = "Teleport To Mink Door",
-        Description = " Click button",
-        Callback = function()
-            Window:Dialog({
-                Title = "Sure",
-                Content = "",
-                Buttons = {
-                    {
-                        Title = "Confirm",
-                        Callback = function()
-                        
-                              end
-                    },
-                    {
-                        Title = "Cancel",
-                        Callback = function()
-                            print("Cancelled the dialog.")
-                        end
-                    }
-                }
-            })
-        end
-    })
-
-Tabs.Teleport:AddButton({
-        Title = "Teleport To Human Door",
-        Description = " Click button",
-        Callback = function()
-            Window:Dialog({
-                Title = "Sure",
-                Content = "",
-                Buttons = {
-                    {
-                        Title = "Confirm",
-                        Callback = function()
-                        
-                              end
-                    },
-                    {
-                        Title = "Cancel",
-                        Callback = function()
-                            print("Cancelled the dialog.")
-                        end
-                    }
-                }
-            })
-        end
-    })
-
-Tabs.Teleport:AddButton({
-        Title = "Teleport To Sky Door",
-        Description = " Click button",
-        Callback = function()
-            Window:Dialog({
-                Title = "Sure",
-                Content = "",
-                Buttons = {
-                    {
-                        Title = "Confirm",
-                        Callback = function()
-                        
-                              end
-                    },
-                    {
-                        Title = "Cancel",
-                        Callback = function()
-                            print("Cancelled the dialog.")
-                        end
-                    }
-                }
-            })
-        end
-    })
-
-Tabs.Teleport:AddButton({
-        Title = "Teleport To Ghoul Door",
-        Description = " Click button",
-        Callback = function()
-            Window:Dialog({
-                Title = "Sure",
-                Content = "",
-                Buttons = {
-                    {
-                        Title = "Confirm",
-                        Callback = function()
-                        
-                              end
-                    },
-                    {
-                        Title = "Cancel",
-                        Callback = function()
-                            print("Cancelled the dialog.")
-                        end
-                    }
-                }
-            })
-        end
-    })
-
-Tabs.Teleport:AddButton({
-        Title = "Teleport To Cyborg Door",
-        Description = " Click button",
-        Callback = function()
-            Window:Dialog({
-                Title = "Sure",
-                Content = "",
-                Buttons = {
-                    {
-                        Title = "Confirm",
-                        Callback = function()
-                        
-                              end
-                    },
-                    {
-                        Title = "Cancel",
-                        Callback = function()
-                            print("Cancelled the dialog.")
-                        end
-                    }
-                }
-            })
-        end
-    })
-
-Tabs.Teleport:AddButton({
-        Title = "Teleport To Ancient one",
-        Description = " Click button",
-        Callback = function()
-            Window:Dialog({
-                Title = "Sure",
-                Content = "",
-                Buttons = {
-                    {
-                        Title = "Confirm",
-                        Callback = function()
-                        
-                              end
-                    },
-                    {
-                        Title = "Cancel",
-                        Callback = function()
-                            print("Cancelled the dialog.")
-                        end
-                    }
-                }
-            })
-        end
-    })
-
 
     local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Auto-Farm", Default = false })
 
@@ -809,117 +804,6 @@ local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "DARK SCREEN", Default =
     end)
 
     Options.MyToggle:SetValue(false)
-
-local Toggle = Tabs.Dungeon:AddToggle("MyToggle", {Title = "Auto-Buy Raids", Default = false })
-
-    Toggle:OnChanged(function()
-        while AutoBuyRaids do wait()
-            
-            local args = {
-                [1] = "RaidsNpc",
-                [2] = "Select",
-                [3] = tostring(SelectDun)
-            }
-            
-            game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
-
-        end
-    
-    end)
-
-    Options.MyToggle:SetValue(false)
-
-local Toggle = Tabs.Dungeon:AddToggle("MyToggle", {Title = "Auto-Buy Raids Use Fruit", Default = false })
-
-    Toggle:OnChanged(function()
-        print()
-    
-    end)
-
-    Options.MyToggle:SetValue(false)
-
-    local Toggle = Tabs.Dungeon:AddToggle("MyToggle", {Title = "Auto-Start Raids", Default = false })
-
-    Toggle:OnChanged(function()
-        while AutoStart do wait()
-            fireclickdetector(game:GetService("Workspace").Map["Boat Castle"].RaidSummon2.Button.Main.ClickDetector)
-        end
-    
-    end)
-
-    Options.MyToggle:SetValue(false)
-
-
-local Toggle = Tabs.Dungeon:AddToggle("MyToggle", {Title = "Kill-Aura", Default = false })
-
-    Toggle:OnChanged(function()
-        print()
-    
-    end)
-
-    Options.MyToggle:SetValue(false)
-
-local Toggle = Tabs.Auto/Money:AddToggle("MyToggle", {Title = "AutoFram-Bone", Default = false })
-
-    Toggle:OnChanged(function()
-        print()
-    
-    end)
-
-    Options.MyToggle:SetValue(false)
-
-local Toggle = Tabs.Auto/Money:AddToggle("MyToggle", {Title = "AutoFram-Katakuri", Default = false })
-
-    Toggle:OnChanged(function()
-        print()
-    
-    end)
-
-    Options.MyToggle:SetValue(false)
-
-
-local Toggle = Tabs.Settings:AddToggle("MyToggle", {Title = "AutoRedeem-Code", Default = false })
-
-    Toggle:OnChanged(function()
-        -- Redeem
-    redeem = {
-        'Sub2Fer999',
-        'Enyu_is_Pro',
-        'JCWK',
-        'StarcodeHEO',
-        'MagicBUS',
-        'KittGaming',
-        'Sub2CaptainMaui',
-        'Sub2OfficialNoobie',
-        'TheGreatAce',
-        'Sub2NoobMaster123',
-        'Sub2Daigrock',
-        'Axiore',
-        'StrawHatMaine',
-        'TantaiGaming',
-        'Bluxxy',
-        'SUB2GAMERROBOT_EXP1',
-        'GAMER_ROBOT_1M',
-        'SUBGAMERROBOT_RESET',
-        'RESET_5B',
-        'SUB2GAMERROBOT_RESET1',
-        'Sub2UncleKizaru',
-        'ADMIN_TROLL ',
-        'DRAGONABUSE ',
-        'DEVSCOOKING '
-    }
-    spawn(function()
-        for i,v in pairs(redeem) do
-            game:GetService("ReplicatedStorage").Remotes.Redeem:InvokeServer(v)
-        end
-    end)
-    wait(1)
-    game:GetService("ReplicatedStorage").Assets.GUI.DamageCounter.Enabled = false
-    
-    end)
-
-    Options.MyToggle:SetValue(false)
-
 
 
  local Input = Tabs.Main:AddInput("Input", {
@@ -967,10 +851,9 @@ InterfaceManager:BuildInterfaceSection(Tabs.Settings)
 Window:SelectTab(1)
 
 Fluent:Notify({
-    Title = "wait loader",
+    Title = "Notify",
     Content = "loader succeed.",
-    Duration = 6
+    Duration = 5
 })
 
 SaveManager:LoadAutoloadConfig()
-
