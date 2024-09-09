@@ -874,7 +874,7 @@ local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "FAST-ATTACK", Default =
     Toggle:OnChanged(function(Value)
         _G.AT = Value
         while _G.AT do wait ()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Fame5286/Fast/main/Fast"))()
+        
     end
 end)
 
@@ -886,7 +886,7 @@ local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "FPS-BOOST", Default = f
     Toggle:OnChanged(function(Value)
         _G.BT = Value
         while _G.BT do wait ()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Fame5286/fps/main/fps"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Fame5286/fps/main/fps"))()
     end
 end)
 
@@ -1181,7 +1181,7 @@ Window:SelectTab(1)
 Fluent:Notify({
     Title = "wait loader",
     Content = "loader succeed.",
-    Duration = 5
+    Duration = 6
 })
 
 SaveManager:LoadAutoloadConfig()
